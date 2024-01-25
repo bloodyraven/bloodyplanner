@@ -1,0 +1,176 @@
+.bg-line {
+	height:600px;
+	background-position: center;
+	border-radius: 30px;
+	position: relative;
+	border: solid white 1px;
+	overflow: hidden;
+	background-size: cover;
+}
+
+.day-title {
+	padding-top:20px;
+	color: white;
+	text-align: center;
+	font-size:25px;
+	position: absolute;
+    width: 100%;
+    z-index: 999;
+	text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+
+.logo {
+	height:75px;
+	padding:5px;
+	min-width: 40px;
+    min-height: 75px;
+}
+
+.mini-logo {
+	width:100%;
+	padding:0px;
+	min-width:35px;
+	min-height:35px;
+}
+
+
+.logo-wrapper {
+	width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+.mini-logo-wrapper {
+	position: absolute;
+	bottom: 15px;
+}
+
+.center-cropped {
+	position: absolute;
+	width: 100%;
+	height:400px;
+	background-position: center center;
+}
+
+.center-cropped-2 {
+	position: absolute;
+	width: 100%;
+	height:350px;
+	background-position: center center;
+	background-size: cover;
+}
+
+.top-split {
+    clip-path: polygon(0% 0%, 0% 99%, 197% 0%);
+}
+
+.bottom-split {
+    clip-path: polygon(100% 0%, -100% 100%, 100% 100%);
+    bottom: 0;
+}
+
+.top-split-2 {
+    clip-path: polygon(0% 0%, 0% 100%, 380% 0%);
+	background-size: cover;
+}
+
+.bottom-split-2 {
+    clip-path: polygon(100% 3%, -266% 100%, 100% 100%);
+    bottom: 0;
+}
+
+.time {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.time-top-split {
+    top: 30%;
+}
+
+.time-bottom-split {
+    top: 70%;
+}
+
+.flex {
+	display: flex;
+}
+
+.half-width {
+	width: 50%;
+}
+
+.bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+	border-radius: 30px;
+}
+
+.calendar-title {
+	color: white;
+	font-size: 30px;
+	padding-bottom: 15px;
+	text-align: center;
+	font-family: diablo;
+}
+
+.footer-planning {
+	color:white;
+	font-size: 30px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-family: diablo;
+}
+
+@font-face {
+    font-family: diablo;
+    src: url(../resources/diablo.ttf);
+}
+
+#bg-show, #logo-show {
+	width:100%;
+	padding:5px;
+}
+
+#edit > input {
+	width:100%;
+}
+
+.logo-fav {
+	width:75%;
+	padding:5px;
+}
+
+.logo-del {
+	margin-left:5px;
+}
+
+.fav-panel {
+	overflow-y: scroll;
+    height: 400px;
+}
+
+.social-input {
+	width:85%;
+}
+
+.social-flex {
+	display:flex;
+	align-items:center;
+}
+
+.social-margin {
+	margin-left:7px;
+}
